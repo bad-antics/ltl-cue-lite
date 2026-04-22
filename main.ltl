@@ -1,0 +1,15 @@
+// ltl-cue-lite/main.ltl
+//
+// CUE lang value+constraint language subset parser.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-cue-lite v0.1.0")
+    io::println("CUE lang value+constraint language subset parser.")
+    0
+}
